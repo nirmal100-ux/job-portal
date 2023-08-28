@@ -16,13 +16,13 @@ const Banner = () => {
   return (
     <div className="banner-wrapper px-[4%] pt-[6%] pb-[9%] mmd:pt-[8%]  msm:pt-[16%] msm:px-[5%]">
       <div className="w-[41%]  space-y-6 mlg:w-[54%] mmd:w-[70%] mmd:space-y-4  msm:w-[100%]">
-        <h2 className="text-4xl font-bold  leading-[45px] break-words w-[90%] mmd:text-2xl msm:w-[100%] msm:text-2xl">
+        <h2 className="text-4xl font-bold  leading-[45px] break-words w-[90%] mmd:text-2xl msm:w-[100%] msm:text-2xl text-red-500">
           Find A<span className="text-color">&nbsp;Job</span>
           &nbsp;That
-          <span className="text-color">&nbsp; Matches</span>&nbsp; Your Passion
+
         </h2>
 
-        <div className="text-sm">
+        <div className="text-sm text-red-600">
           <p>
             Hand-picked opportunities to work from home, remotely, freelance,
             full-time, part-time, contract and internships.
